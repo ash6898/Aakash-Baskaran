@@ -1,0 +1,53 @@
+.site-header {
+    font-family: comfortaa, sans-serif;
+    background-color: transparent;
+    padding: 1rem 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.header-logo {
+    color: #25282B;
+    font-size: 1.125rem;
+    text-decoration: none;
+}
+
+.header-nav-list {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav-list > li {
+    margin-right: 2rem;
+    display: inline-block;
+}
+
+.header-nav-list > li:last-child {
+    margin-right: 0;
+}
+
+.header-nav-list a {
+    color: #25282B;
+    font-size: 1.125rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.header-nav-list a:hover {
+    color: #F9FAFF;
+}
